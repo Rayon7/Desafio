@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="testing the third test with odd palindromes">
+    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="Commenting the first part of the third task.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688624046414</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commenting the first part of the third task.">
+      <created>1688624953171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688624953171</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
     <MESSAGE value="Menu improved and second task created" />
     <MESSAGE value="camelCase changed to snake_case, for good practice, improved second task" />
     <MESSAGE value="testing the third test with odd palindromes" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing the third test with odd palindromes" />
+    <MESSAGE value="Commenting the first part of the third task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commenting the first part of the third task." />
   </component>
 </project>
