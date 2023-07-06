@@ -11,20 +11,23 @@ while True:
         break
 
     elif op == 1:
-        fInput = input('Insira uma frase para que sua ordem seja revertida: ')
-        mix = fInput.split()  # Divide the string into substrings using a specified separator, in this case, blank spaces.
+        f_input = input('Insira uma frase para que sua ordem seja revertida: ')
+        mix = f_input.split()  # Divide the string into substrings using a specified separator, in this case, blank spaces.
         mix2 = mix[::-1]  # Revert the order of all words.
-        fOutput = ' '.join(mix2)  # Rearrange them and put the blank spaces back.
-        print(f'Frase Digitada: {fInput}\nFrase Revertida: {fOutput}')
+        f_output = ' '.join(mix2)  # Rearrange them and put the blank spaces back.
+        print(f'Frase Digitada: {f_input}\nFrase Revertida: {f_output}')
 
     elif op == 2:
-        removeDupli = input('Insira uma frase para que suas letras duplicas sejam removidas: ')
+        remove_dupli = input('Insira uma frase para que suas letras duplicas sejam removidas: ')
         letras = []
 
-        for i in removeDupli:
+        for i in remove_dupli:
             if i not in letras:
                 letras.append(i)
-        print(f'Frase Digitada: {removeDupli}\nFrase Sem Letras Duplicadas: {letras}')
+
+        frase_resposta = ''.join(letras)
+        print(f'Frase Digitada: {remove_dupli}\nFrase Sem Letras Duplicadas: {frase_resposta}')
+
     elif op == 3:
         print()
     elif op == 4:

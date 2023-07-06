@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="Menu and first task completed.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="Menu improved and second task created">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688616344389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Menu improved and second task created">
+      <created>1688618134280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688618134280</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +112,7 @@
     <MESSAGE value="First string manipulation, later I will improve more." />
     <MESSAGE value="Initial menu creation" />
     <MESSAGE value="Menu and first task completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu and first task completed." />
+    <MESSAGE value="Menu improved and second task created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu improved and second task created" />
   </component>
 </project>
