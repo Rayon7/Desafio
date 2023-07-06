@@ -55,42 +55,45 @@ while True:
 
     elif op == 4:
         frase_maiuscula = input('Insira uma frase para tornar cada inicio de frase maiúsculo')
-        if frase_maiuscula.isalpha():
-            while True:
-                print('Escolha o método de separação da frase')
-                print('1 - Para " " Espaço. 2 - Para "." Ponto. 3 - Cancelar')
-                op = input('Escolha a Opção Desejada: ')
+        while True:
+            print('Escolha o método de separação da frase')
+            print('1 - Para " " Espaço. 2 - Para "." Ponto. 3 - Cancelar')
+            op = input('Escolha a Opção Desejada: ')
 
-                if op.isdigit():
-                    op = int(op)
+            if op.isdigit():
+                op = int(op)
 
-                if op == 3:
-                    print('Opção cancelada.')
-                    break
+            if op == 3:
+                print('Opção cancelada.')
+                break
 
-                elif op == 1:
-                    frase1 = frase_maiuscula.split()
-                    result = []
+            elif op == 1:
+                frase1 = frase_maiuscula.split()  # The same principle as the first task
+                result = []
 
-                    for i in frase1:
-                        i = i.capitalize()
-                        result.append(i)
+                for i in frase1:
+                    i = i.capitalize()  # This method capitalizes all the first letters of the phrase.
+                    result.append(i)
 
-                    frase_maiuscula = ' '.join(result)
-                elif op == 2:
-                    frase1 = frase_maiuscula.split('. ')
-                    result = []
+                frase_maiuscula = ' '.join(result)
+                print(f'Resultado: {frase_maiuscula}')
+                break  # End the infinite loop
 
-                    for i in frase1:
-                        i = i.capitalize()
-                        result.append(i)
+            elif op == 2:
+                frase1 = frase_maiuscula.split('. ')  # The same principle as the first task but this time separating by .
+                result = []
 
-                    frase_maiuscula = '. '.join(result)
-                else:
-                    print('Opção inválida')
-                    continue
-        else:
-            print('Digite apenas letras.')
+                for i in frase1:
+                    i = i.capitalize()
+                    result.append(i)
+
+                frase_maiuscula = '. '.join(result)
+                print(f'Resultado: {frase_maiuscula}')
+                break  # End the infinite loop
+
+            else:
+                print('Opção inválida')
+                continue
 
     elif op == 5:
         print()

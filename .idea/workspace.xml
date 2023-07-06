@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="Finishing the third task and adding a test to only check if the string only has letters.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="97d58afa-cbc8-42a9-8f0c-5f7438aa37f7" name="Changes" comment="Finishing the fourth task.">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688626284547</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finishing the fourth task.">
+      <created>1688629946633</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688629946633</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +152,7 @@
     <MESSAGE value="testing the third test with odd palindromes" />
     <MESSAGE value="Commenting the first part of the third task." />
     <MESSAGE value="Finishing the third task and adding a test to only check if the string only has letters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing the third task and adding a test to only check if the string only has letters." />
+    <MESSAGE value="Finishing the fourth task." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing the fourth task." />
   </component>
 </project>
