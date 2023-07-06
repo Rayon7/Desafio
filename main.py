@@ -54,7 +54,7 @@ while True:
             print('Digite apenas letras.')
 
     elif op == 4:
-        frase_maiuscula = input('Insira uma frase para tornar cada inicio de frase maiúsculo')
+        frase_maiuscula = input('Insira uma frase para tornar cada inicio de frase maiúsculo: ')
         while True:
             print('Escolha o método de separação da frase')
             print('1 - Para " " Espaço. 2 - Para "." Ponto. 3 - Cancelar')
@@ -96,7 +96,31 @@ while True:
                 continue
 
     elif op == 5:
-        print()
+        anagram_palin = input('Insira uma palavra para verificar se é um anagrama de um palindromo: ')
+        anagram_palin = anagram_palin.replace(' ', '').lower()  # Remove the blank spaces and change the phrase to lower case.
+        counter = {}
+
+        for i in anagram_palin:  # Counts the frequency of every character in the string.
+            counter[i] = counter.get(i, 0) + 1
+
+        num_odd = 0
+        for j in counter.values():  # Verifies if at max there is only one odd numbered letter.
+            if j % 2 != 0:
+                num_odd += 1
+
+            anagram_result = True
+
+            if num_odd > 1:
+                anagram_result = False
+
+        if anagram_result:
+            print(f'O resultado de {anagram_palin} é...')
+            print('true')
+
+        else:
+            print(f'O resultado de {anagram_palin} é...')
+            print('false')
+
     else:  # If something wrong is typed in return to the start of the While loop.
         print("Opção escolhida inválida.")
         continue
