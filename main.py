@@ -19,17 +19,27 @@ while True:
 
     elif op == 2:
         remove_dupli = input('Insira uma frase para que suas letras duplicas sejam removidas: ')
-        letras = []
+        letras = []  # empty list to receive the unique letters.
 
         for i in remove_dupli:
-            if i not in letras:
+            if i not in letras:  # tests if the list already has the letter for each of the letters of remove_dupli
                 letras.append(i)
 
         frase_resposta = ''.join(letras)
         print(f'Frase Digitada: {remove_dupli}\nFrase Sem Letras Duplicadas: {frase_resposta}')
 
     elif op == 3:
-        print()
+        palin = input('Insira uma frase para que o palindromo mais longo seja encontrado: ')
+        tam_palin = 0
+        for i in range(len(palin)):
+            j, k = i, i
+            while j >= 0 and k < len(palin) and palin[j] == palin[k]:
+                if (k - j + 1) > tam_palin:
+                    tam_palin = k - j + 1
+                    resul_palin = palin[j:k+1]
+                j -= 1
+                k += 1
+        print(resul_palin)
     elif op == 4:
         print()
     elif op == 5:
