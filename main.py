@@ -30,11 +30,11 @@ while True:
 
     elif op == 3:
         palin = input('Insira uma frase para que o palindromo mais longo seja encontrado: ')
-        tam_palin = 0
-        for i in range(len(palin)):
-            j, k = i, i
-            while j >= 0 and k < len(palin) and palin[j] == palin[k]:
-                if (k - j + 1) > tam_palin:
+        tam_palin = 0  # Initializing the variable.
+        for i in range(len(palin)):  # The for loop iterates over each position "i" in the string.
+            j, k = i, i  # The loop check for palindromes centered at "i" of odd length.
+            while j >= 0 and k < len(palin) and palin[j] == palin[k]:  #  The while loop continues as long as "j" and "k" are
+                if (k - j + 1) > tam_palin:  #  whithin the bounds of the string and the characters at those positions are equal.
                     tam_palin = k - j + 1
                     resul_palin = palin[j:k+1]
                 j -= 1
@@ -44,6 +44,6 @@ while True:
         print()
     elif op == 5:
         print()
-    else:  # If something wrong is typed in return to the start of the While
+    else:  # If something wrong is typed in return to the start of the While loop.
         print("Opção escolhida inválida.")
         continue
